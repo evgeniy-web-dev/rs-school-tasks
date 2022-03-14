@@ -1,0 +1,155 @@
+.background-header {
+  background-color: #02160b;
+}
+
+.wrapper {
+  width: 1440px;
+  height: 780px;
+  margin: 0 auto;
+  background-image: url("../../img/header/fox.jpg");
+  background-size: cover;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+}
+
+.logo-title {
+  margin: 0;
+  position: absolute;
+  left: 85px;
+  top: auto;
+  bottom: auto;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 60px;
+  color: #F7F7F7;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item {
+  padding-left: 65px;
+}
+
+.nav-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #F7F7F7;
+}
+.nav-link:hover {
+  color:#E39128;
+}
+
+/* Увеличить размер кнопки поиска */
+.search {
+  transition: 0.8s;
+}
+.search:hover {
+  transform: scale(1.2);
+}
+
+/* Регулировка высоты  кнопки Sign in */
+.item {
+  margin-top: 15px;   
+}
+
+/* Параметры кнопки Sign in */
+.sign {
+  padding: 10px 23px 10px 23px;  
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  line-height: 27px;
+
+  border: 2px solid #CD6326;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.sign:hover {
+  color: #F7F7F7;
+  background: #CD6326;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sign:focus {
+  background: #8F5613;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.survival {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.survival-title {
+  margin: 0;
+  padding-top: 120px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #CD6326;
+}
+
+.survival-text {
+  margin: 0;
+  padding-top: 47px;
+  max-width: 274px;
+	
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #F7F7F7;
+}
+
+.survival-button {
+  margin-top: 50px;
+  width: 160px;
+  height: 60px;
+  background: #CD6326;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  color: #F7F7F7;
+}
+
+.survival-button:hover {
+  background: #E39128;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.survival-button:focus {
+  background: #8F5613;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

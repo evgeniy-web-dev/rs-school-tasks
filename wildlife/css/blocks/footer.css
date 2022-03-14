@@ -1,0 +1,97 @@
+.background-footer {
+  background-color: #181617;
+}
+
+.footer {
+  width: 1440px;
+  height: 360px;
+  margin: 0 auto;
+  background-image: url("../../img/footer.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.footer-row {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 150px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  margin-left: 80px;
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-list li:last-child {
+  padding-left: 90px;
+}
+
+.footer-item {
+  margin: 0;
+  padding-left: 85px;
+}
+
+.footer-nav-link{
+  margin: 0;
+  font-size: 23px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #F7F7F7;
+}
+
+.footer-nav-link:hover {
+  color:#E39128;
+}
+
+.footer-socials {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.facebook {
+  width: 40px;
+  height: 40px;
+  margin-right: 27px;
+  background: url("../../img/socials/facebook.svg") no-repeat;
+}
+
+.instagram {
+  width: 40px;
+  height: 40px;
+  margin-right: 27px;
+  background: url("../../img/socials/insta.svg") no-repeat;
+}
+
+.pinterest {
+  width: 40px;
+  height: 40px;
+  margin-right: 27px;
+  background: url("../../img/socials/pinterest.svg") no-repeat;
+}
+
+.telegram {
+  width: 40px;
+  height: 40px;
+  background: url("../../img/socials/telegram.svg") no-repeat;
+}
+
+.socials {      			/* Увеличить размер иконки */
+  transition: 0.8s;
+}
+.socials:hover {
+  cursor: pointer;
+  color: #E39128;
+  transform: scale(1.2);
+}
