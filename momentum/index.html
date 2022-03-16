@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/owfont-regular.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <title>Momentum</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="momentum__inner">
+
+          <header class="time">
+            <span class="time-h">00 </span>:
+            <span class="time-m">00 </span>:
+            <span class="time-s">00</span>
+          </header>
+
+          <main class="main">
+            <section class="date">
+              <span class="date-day"></span>
+              <span class="date-month"></span>
+              <span class="date-num"></span>
+            </section>
+            <section class="hello">
+              <span class="hello__text lng" data-lng="greetings"></span>
+              <input class='user__name' type="text" placeholder="[Enter name]">
+            </section>
+          </main>
+
+          <footer class="footer">
+            <button class="button button-quote">
+              <img src="assets/svg/reload.svg" alt="change quote button">
+            </button>
+            <section class="quote">
+              <p class="quote-text"></p>
+              <p class="quote-author"></p>
+            </section>
+          </footer>
+
+          <aside class="audio">
+            <nav class="audio__nav">
+              <button class="button audio__button-prev">
+                <img src="assets/svg/play-prev.svg" alt="previous track">
+              </button>
+              <button class="button audio__button-play">
+                <img src="assets/svg/play.svg" alt="play">
+              </button>
+              <button class="button audio__button-next">
+                <img src="assets/svg/play-next.svg" alt="next track">
+              </button>
+              <div class="audio__progress-container">
+                <input type="range" class="input__bar" value="0" min="0%" max="100%" step="1%">
+                <div class="progress__thumb"></div>
+                <div class="progress__bar"></div>
+              </div>
+            </nav>
+            <ul class="audio__list"></ul>
+          </aside>
+          <aside class="weather">
+            <div class="weather__city">
+              <input class='user__city' type="text" value="minsk">
+            </div>
+            <div class="weather__error">
+            </div>
+            <div class="weather__image">
+            </div>
+            <div class="weather__temperature"> °C </div>
+            <div class="weather__wind">
+              Wind speed: m/s
+            </div>
+            <div class="weather__humidity">
+              humidity: %
+            </div>
+          </aside>
+          <button class="button button-slider button-slider-l">
+            <img src="assets/svg/slider-prev.svg" alt="prev slide">
+          </button>
+          <button class="button button-slider button-slider-r">
+            <img src="assets/svg/slider-next.svg" alt="next slide">
+          </button>
+          <section class="settings">
+            <nav class="settings__menu">
+              <ul class="settings__menu-list">
+                <li class="settings__menu-item">
+                  <span class="lng" data-lng="language">Language: </span>
+                  <button class="lang lng lang-active" data-lng="en">en</button>
+                  <span class="dash">/</span>
+                  <button class="lang lng" data-lng="ru">ru</button>
+                </li>
+                <li class="settings__menu-item lng" data-lng="imageSource">Image source</li>
+                <li class="settings__menu-item">
+                  <fieldset>
+                    <legend><span class="lng" data-lng="hide">Hide blocks:</span> </legend>
+                    <div>
+                      <input type="checkbox" class="hide-input" data-block="audio">
+                      <label for="coding" class="block-hidelist lng" data-lng="player">Audio Player</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" class="hide-input" data-block="weather">
+                      <label for="music" class="block-hidelist lng" data-lng="weather">Weather</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" class="hide-input" data-block="time">
+                      <label for="music" class="block-hidelist lng" data-lng="clocks">Clocks</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" class="hide-input" data-block="main">
+                      <label for="music" class="block-hidelist lng" data-lng="greetings">Greetings</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" class="hide-input" data-block="footer">
+                      <label for="music" class="block-hidelist lng" data-lng="quotes">Quotes</label>
+                    </div>
+                  </fieldset>
+                </li>
+              </ul>
+            </nav>
+            <button class="button settings-button">
+              <img src="assets/svg/gear.svg" alt="settings button">
+            </button>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <audio src="assets/audio/Summer-Wind.mp3" data-track='Summer Wind'></audio>
+    <audio src="assets/audio/River-Flows-In-You.mp3" data-track='River Flows In You'></audio>
+    <audio src="assets/audio/Ennio-Morricone.mp3" data-track='Ennio Morricone'></audio>
+    <audio src="assets/audio/Aqua-Caelestis.mp3" data-track='Aqua-Caelestis'></audio>
+
+    <audio src="assets/audio/Rue-Du-Soleil.mp3" data-track='Rue Du Soleil'></audio>
+    <audio src="assets/audio/Reiki-Healing.mp3" data-track='Reiki Healing'></audio>
+    <audio src="assets/audio/Suigetsu.mp3" data-track='Suigetsu'></audio>
+    <audio src="assets/audio/Mu-Beni-Sana.mp3" data-track='Mu Beni Sana'></audio>
+    <audio src="assets/audio/Forest-Love.mp3" data-track='Forest Love'></audio>
+    <audio src="assets/audio/Finding-Home.mp3" data-track='Finding Home'></audio>
+
+    <script type="module" src="js/index.js"></script>
+
+  </body>
+</html>
