@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>TypeScript</title>
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides" style="color: #34baeb">
+        <section><h1 style="color: #eb7d34">TypeScript</h1></section>
+        <section>
+          TypeScript is statically typed JavaScript that is mainly used for building complex and large applications.
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Why typescript is needed and when to use it
+          </h1>
+          <span>
+            TypeScript is needed only at the development stage, it takes the JavaScript core and overlays new abstractions on top of it, and which at the development stage allows you to catch a large number of problems, write more structured and beautiful code
+          </span>
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Advantages of TypeScript
+          </h2>
+          <ul>
+            <li>Can catch errors at the stage of their development</li>
+            <li>Allows you to write more complex applications with comfort</li>
+            <li>Refactoring your code becomes easier</li>
+            <li>It's much easier to work in a development team</li>
+            <li>Very rich documentation</li>
+          </ul>
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Cons of typescript
+          </h2>
+          <ul>
+            <li>An extra additional layer that needs to be implemented at the development stage, but often it pays for itself</li>
+          </ul>
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">How to install</h2>
+          <p>You can install via npm</p>
+          <img src="./img/install.png" alt="install">
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Basic types
+          </h2>
+          <ul>
+            <li>Boolean</li>
+            <li>Number</li>
+            <li>String</li>
+            <li>Null</li>
+            <li>Undefined</li>
+            <li>Symbol</li>
+            <li>Object</li>
+          </ul>
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Some examples with basic types
+          </h2>
+          <img src="./img/basic_types.png" alt="examples">
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Own additional types
+          </h2>
+          <ul>
+            <li>Array</li>
+            <li>Tuple</li>
+            <li>Any</li>
+            <li>Void</li>
+            <li>Never</li>
+            <li>Enum</li>
+          </ul>
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Array
+          </h2>
+          <p>Array is defined in two ways</p>
+          <ol>
+            <li><img src="./img/array.png" alt="array" style="position: relative; top: 15px; left: 10px;"></li>
+            <li><img src="./img/array_generic.png" alt="array_generic" style="position: relative; top: 15px; left: 10px;"></li>
+          </ol>
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Tuple
+          </h2>
+          <p>It's an array of different data types</p>
+          <img src="./img/tuple.png" alt="tuple">
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Any
+          </h2>
+          <p>Used when we can assign values ​​of different data types to a variable</p>
+          <img src="./img/any.png" alt="any">
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Void
+          </h2>
+          <p>Used when our function returns nothing</p>
+          <img src="./img/void.png" alt="void">
+        </section>
+        <section>
+          <h2 style="color:#eb7d34">
+            Never
+          </h2>
+          <p>Used when a function returns an error and does not finish its execution, or when it constantly does something</p>
+          <img src="./img/never.png" alt="never" style="display: block; margin: auto; margin-bottom: 40px;">
+          <img src="./img/never_while.png" alt="never_while" style="display: block; margin: auto;">
+        </section>
+        <section>
+          Thank you for attention
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+  </body>
+</html>
