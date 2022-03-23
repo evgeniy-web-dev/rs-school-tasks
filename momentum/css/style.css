@@ -183,7 +183,7 @@ input::placeholder {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 40%;
           flex: 0 1 40%;
-  width: 80%;
+  /* width: 80%; */
   text-align: center;
 }
 
@@ -201,6 +201,7 @@ input::placeholder {
 }
 
 .momentum__inner .main .hello {
+  text-align: center;
   font-size: 40px;
 }
 
@@ -240,7 +241,7 @@ input::placeholder {
   color: #fff;
   background: inherit;
   font-size: 40px;
-  width: 30%;
+  width: 20%;
 }
 
 @media (max-width: 1024px) {
