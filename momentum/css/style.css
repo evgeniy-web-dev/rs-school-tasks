@@ -183,7 +183,7 @@ input::placeholder {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 40%;
           flex: 0 1 40%;
-  width: 80%;
+  /* width: 80%; */
   text-align: center;
 }
 
@@ -202,6 +202,7 @@ input::placeholder {
 
 .momentum__inner .main .hello {
   font-size: 40px;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
@@ -217,12 +218,16 @@ input::placeholder {
 }
 
 .momentum__inner .main .hello__text {
+  margin-left: 100px;
   margin-right: 10px;
+  /* text-align: center; */
 }
 
 @media (max-width: 1024px) {
   .momentum__inner .main .hello__text {
     font-size: 24px;
+    margin-left: 5px;
+  
   }
 }
 
@@ -241,6 +246,7 @@ input::placeholder {
   background: inherit;
   font-size: 40px;
   width: 30%;
+  /* text-align: center; */
 }
 
 @media (max-width: 1024px) {

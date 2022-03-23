@@ -99,7 +99,7 @@ function timeManager() {
   function sayHello(time) {
     let dayPeriod = (time < 6 || time == 24) ? 'night' :
       (time < 12) ? 'morning' : (time < 18) ? 'afternoon' : 'evening';
-    document.querySelector('.hello__text').textContent = `Good, ${dayPeriod}`;
+    document.querySelector('.hello__text').textContent = `Good ${dayPeriod},`;
   }
   function sayHelloR(time) {
     let dayPeriod = (time < 6 || time == 24) ? 'Доброй ночи, ' :
