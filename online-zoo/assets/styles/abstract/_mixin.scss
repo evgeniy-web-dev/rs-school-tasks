@@ -1,0 +1,43 @@
+@mixin h2 {
+  font-weight: 900;
+  font-size: 8.9rem;
+  line-height: 10.4rem;
+  color: var(--font-light-color);
+}
+
+@mixin h3 {
+  font-weight: 900;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  color: var(--font-main-color);
+}
+
+@mixin h4 {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  color: var(--font-main-color);
+}
+
+@mixin text {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: var(--font-secondary-color);
+}
+
+@mixin primary-gradient {
+  background: linear-gradient(106.89deg, #4bd8b5 -14.32%, #49d6df 100.68%);
+}
+
+@mixin primary-gradient-hover {
+  background: linear-gradient(106.89deg, #49d6df -14.32%, #4bd8b5 100.68%);
+}
+
+@mixin shadow {
+  box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.25);
+}
+
+@mixin shadow-card {
+  box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.1);
+}

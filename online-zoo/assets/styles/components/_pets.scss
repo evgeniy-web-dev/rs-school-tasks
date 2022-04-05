@@ -1,0 +1,46 @@
+.pets {
+  background-color: var(--bg-main-color);
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    margin-top: 100px;
+    margin-bottom: 35px;
+
+    @media screen and (max-width: 1919px){
+      margin-bottom: 32px;
+    }
+
+    @media screen and (max-width: 1199px){
+      margin-bottom: 35px;
+    }
+
+    @media screen and (max-width: 639px){
+      margin-bottom: 30px;
+    }
+  }
+
+  &__slider {
+    margin-bottom: 33px;
+
+    @media screen and (max-width: 1199px){
+      margin-bottom: 38px;
+    }
+
+    @media screen and (max-width: 639px){
+      margin-bottom: 28px;
+    }
+  }
+
+  &__button {
+    margin-bottom: 100px;
+
+    @media screen and (max-width: 639px){
+      margin-bottom: 50px;
+    }
+  }
+}

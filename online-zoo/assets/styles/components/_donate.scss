@@ -1,0 +1,76 @@
+.donate {
+  background-color: var(--bg-secondary-color);
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    margin-top: 100px;
+    margin-bottom: 32px;
+
+    @media screen and (max-width: 1199px){
+      margin-bottom: 18px;
+    }
+
+    @media screen and (max-width: 639px){
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 90px;
+    padding: 0;
+    @include text;
+
+    @media screen and (max-width: 1919px){
+      margin-bottom: 48px;  
+    }
+
+    @media screen and (max-width: 1199px){
+      margin-bottom: 47px;
+      width: 90%;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 639px){
+      display: none;
+    }
+  }
+
+  &__column {
+    width: 100%;
+    margin-bottom: 60px;
+
+    @media screen and (max-width: 1919px){
+      margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: 639px){
+      margin-bottom: 40px;
+    }
+  }
+
+  &__item {
+
+    @media screen and (max-width: 1199px){
+      margin-bottom: 100px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__button {
+    margin-bottom: 100px;
+
+    @media screen and (max-width: 639px){
+      margin-bottom: 50px;
+    }
+  }
+}

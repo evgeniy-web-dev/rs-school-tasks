@@ -1,0 +1,25 @@
+@import "./assets/styles/base/base";
+@import "./assets/styles/abstract/mixin";
+
+@import "./assets/styles/base/logo";
+@import "./assets/styles/base/navigation";
+@import "./assets/styles/base/toggle";
+@import "./assets/styles/base/social";
+@import "./assets/styles/base/button";
+@import "./assets/styles/base/slider";
+@import "./assets/styles/base/bubble";
+@import "./assets/styles/base/mark";
+
+@import "assets/styles/layouts/wrapper";
+@import "assets/styles/layouts/header";
+
+@import "./assets/styles/components/top";
+@import "./assets/styles/components/operations";
+@import "./assets/styles/components/about";
+@import "./assets/styles/components/pets";
+@import "./assets/styles/components/donate";
+@import "./assets/styles/components/testimonials";
+@import "./assets/styles/components/map";
+@import "./assets/styles/components/popup";
+
+@import "./assets/styles/layouts/footer";
