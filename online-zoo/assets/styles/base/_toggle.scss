@@ -1,0 +1,38 @@
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 30px;
+
+  background-color: var(--toggle-color);
+  border-radius: 190px;
+
+  cursor: pointer;
+
+  &__input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  &__round {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 6px;
+
+    background-color: var(--toggle-round-color);
+    border-radius: 50%;
+    @include shadow;
+
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+
+  &__input:checked + .toggle__round {
+    background-color: #1b1b1b;
+    transform: translateX(20px);
+  }
+}
