@@ -8,3 +8,4 @@
 - [presentation](https://evgeniy-web-dev-presentation.netlify.app/)
 - [momentum](https://evgeniy-web-dev.github.io/rs-school-tasks/momentum/)
 - [online-zoo](https://evgeniy-web-dev.github.io/rs-school-tasks/online-zoo/)
+- [online-zoo](https://evgeniy-web-dev.github.io/rs-school-tasks/museum/)
