@@ -1,0 +1,1444 @@
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+  .video-swiper {
+    width: auto;
+    overflow-x: hidden;
+  }
+
+  .video .content {
+    height: auto;
+  }
+
+  .container {
+    margin: 0 20px;
+  }
+
+  .video .content img,
+  .contacts .map img,
+  .explore .picture img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer .links .container,
+  .explore .container,
+  .tickets .content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery .picture-inner-container {
+    height: 2000px;
+  }
+
+  .gallery .picture-inner-container img {
+    max-width: 33%;
+  }
+
+  .gallery .picture-inner-container img:nth-child(3) {
+    margin-top: 0;
+  }
+
+  footer .social {
+    justify-content: center;
+  }
+  footer,
+  footer .links > .container {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* common */
+  .video .content {
+    height: auto;
+  }
+
+  .burger {
+    display: block;
+    top: 56px;
+    right: 20px;
+  }
+
+  .burger-menu {
+  }
+
+  .hidden-1024 {
+    display: none;
+  }
+
+  .container {
+    margin: 0 20px;
+  }
+
+  .section {
+    padding: 53px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    margin: 3px 0 0;
+  }
+
+  .button {
+    padding: 18px 46px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .section-title {
+    font-size: 50px;
+    line-height: 90px;
+    letter-spacing: 5px;
+  }
+
+  .underline-title {
+    margin-bottom: 75px;
+  }
+
+  .underline-title::after {
+    bottom: -15px;
+  }
+
+  /* header */
+
+  header .container {
+    height: 130px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  .burger-open .welcome .content {
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .swiper {
+    width: 700px;
+    height: 525px;
+  }
+
+  .welcome h1 {
+    top: 50px;
+    z-index: 9999;
+  }
+
+  .welcome .content {
+    top: 230px;
+    z-index: 9999;
+  }
+
+  .welcome h1 {
+    max-width: 400px;
+  }
+
+  .welcome h2 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin: 25px 0 60px;
+  }
+
+  .welcome .slider {
+    max-width: 700px;
+  }
+
+  .welcome {
+    height: 585px;
+    padding: 0;
+  }
+
+  .welcome .slider nav {
+    width: 700px;
+  }
+
+  .welcome .slider nav > *:first-child {
+    padding-left: 225px;
+  }
+
+  .welcome .slider nav .counters {
+    font-size: 20px;
+  }
+
+  .welcome .slider nav .pins {
+    width: 160px;
+    margin-left: 1px;
+  }
+
+  .welcome .slider nav .pins li {
+    width: 12px;
+    height: 12px;
+  }
+
+  /* visiting */
+  .visiting {
+    padding-bottom: 40px;
+  }
+
+  .visiting .items {
+    justify-content: space-evenly;
+    gap: 39px 0;
+  }
+
+  .visiting .items .item {
+    max-width: 330px;
+  }
+
+  .visiting .item h3 {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 4.67px;
+    margin-bottom: 16px;
+  }
+
+  .visiting .item h3::after {
+    bottom: -12px;
+    width: 150px;
+  }
+
+  .visiting h4 {
+    margin: 13px 0 0;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .visiting a {
+    font-weight: 200;
+    font-size: 16px;
+  }
+
+  /* explore */
+  .explore {
+    padding: 53px 0 48px;
+  }
+
+  .explore .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .explore .container p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .explore .container .description {
+    margin-bottom: 42px;
+  }
+
+  /* video */
+  .video {
+    padding: 53px 0 60px;
+  }
+
+  .video > div > div.content {
+    justify-content: left;
+  }
+
+  .video > div > div.content > p {
+    display: none;
+  }
+
+  .video .container > .content:first-child {
+    margin-bottom: 32px;
+  }
+
+  .video-swiper {
+    width: auto;
+    overflow-x: hidden;
+  }
+
+  .player .play-large {
+    width: 152px;
+    height: 152px;
+    background-size: 152px;
+  }
+
+  .player .controls {
+    height: 62px;
+    gap: 0 30px;
+    padding: 0 40px;
+  }
+
+  .player .controls button.volume {
+    width: 26px;
+    height: 30px;
+  }
+
+  .player .controls .volume-level .progress {
+    width: 143px;
+  }
+
+  .player .controls .progress {
+    height: 5px;
+  }
+
+  .player .controls .progress::-webkit-slider-thumb {
+    width: 13px;
+    height: 13px;
+  }
+
+  .player .controls button.fullscreen {
+    width: 26px;
+    height: 26px;
+  }
+
+  .player .controls .volume-level {
+    width: 199px;
+  }
+
+  .player .controls button.fullscreen svg,
+  .player .controls button.volume svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .video .slider .items > div {
+    width: 300px;
+    height: 170px;
+  }
+
+  /* gallery */
+  .gallery > div > div > div > div > img {
+    max-width: 304px;
+  }
+
+  .gallery .picture-container {
+    height: 1212px;
+  }
+
+  .gallery .picture-inner-container {
+    height: 2000px;
+    gap: 24px 36px;
+  }
+
+  .gallery .section-title {
+    margin-bottom: 52px;
+  }
+
+  /* tickets */
+
+  .tickets {
+    padding-bottom: 60px;
+  }
+
+  .tickets .image {
+    width: 700px;
+    height: 440px;
+    overflow: hidden;
+  }
+
+  .tickets .image img {
+    max-width: 700px;
+    height: auto;
+    margin-top: -47px;
+  }
+
+  .tickets div.ticket-type {
+    display: none;
+  }
+
+  .tickets .content > * {
+    flex-basis: unset;
+  }
+
+  .tickets .amount,
+  .tickets .total,
+  .tickets .buy-now-wrapper {
+    text-align: left;
+  }
+
+  .buy-tickets-form {
+    width: 204px;
+    text-align: left;
+  }
+
+  .buy-tickets-form .number {
+    width: 83px;
+  }
+
+  .buy-tickets-form .spinner input[type="number"] {
+    padding-left: 0;
+  }
+
+  .buy-tickets-form .spinner div {
+    padding: 0 6px;
+    margin-top: 6px;
+  }
+
+  .buy-tickets-form .amount h4 {
+    margin-bottom: 23px;
+  }
+
+  .buy-tickets-form .spinner {
+    margin-bottom: 23px;
+  }
+
+  .buy-tickets-form .total {
+    margin: 3px 0 68px;
+  }
+
+  .buy-tickets-form span {
+    margin-right: 15px;
+  }
+
+  /* contacts */
+  .contacts {
+    padding-bottom: 62px;
+  }
+
+  .contacts .details {
+    line-height: 28px;
+    font-size: 20px;
+  }
+
+  .contacts ul {
+    margin-top: 24px;
+  }
+
+  .contacts ul li {
+    margin-bottom: 0;
+    line-height: 39px;
+  }
+
+  .contacts b {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .contacts .content .map {
+    width: 770px;
+    height: 454px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .contacts .content .map img {
+    max-width: 960px;
+    height: auto;
+    right: 0;
+    top: 0;
+    position: absolute;
+  }
+
+  /* footer */
+  footer .logo {
+    margin: 8px 0 0;
+  }
+
+  footer .links > .container {
+    padding: 53px 0 40px;
+  }
+
+  footer .links > .container {
+    column-gap: 40px;
+  }
+
+  footer nav ul {
+    width: 325px;
+    column-gap: 103px;
+  }
+
+  footer .social {
+    margin-bottom: 11px;
+  }
+
+  footer {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .container {
+    margin: 0 20px;
+  }
+
+  .video .content img,
+  .contacts .map img,
+  .explore .picture img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer .links .container,
+  .explore .container,
+  .tickets .content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tickets .content {
+    row-gap: 30px;
+  }
+
+  .gallery .picture-inner-container img {
+    max-width: 50%;
+  }
+
+  footer .social {
+    justify-content: center;
+  }
+  footer,
+  footer .links > .container {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* common */
+
+  .burger-menu {
+    height: 100%;
+    padding: 0 54px;
+    width: calc(100% - 108px);
+  }
+
+  .burger-menu nav ul {
+    width: 241px;
+    padding-left: 0;
+  }
+
+  .burger-menu .images,
+  .burger-menu .social {
+    display: flex;
+  }
+
+  .burger-menu .images {
+    margin-bottom: 23px;
+  }
+
+  .burger-menu .social {
+    padding-top: 35px;
+  }
+
+  .modal {
+    max-width: 590px;
+    max-height: 1479px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .modal .content {
+    height: 1479px;
+  }
+
+  .active .modal {
+    position: absolute;
+  }
+
+  .modal form {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .modal form .form-fields-section {
+    width: 530px;
+    height: 577px;
+  }
+
+  .modal h3 {
+    margin-bottom: 56px;
+  }
+
+  .modal .main-section input[name="date"] {
+    width: 251px;
+  }
+
+  .modal .datetime {
+    gap: 28px;
+  }
+
+  .modal form .overview-section > div {
+    padding: 24px 14px;
+  }
+
+  .burger {
+    top: 46px;
+  }
+
+  .logo {
+    margin: 12px 0 0;
+  }
+
+  .section-title {
+    font-size: 40px;
+    line-height: 35px;
+    letter-spacing: 5px;
+  }
+
+  .underline-title::after {
+    bottom: -35px;
+  }
+
+  /* header */
+
+  header .container {
+    height: 110px;
+  }
+
+  .welcome {
+    height: auto;
+    position: relative;
+  }
+
+  .swiper {
+    width: 100%;
+    height: auto;
+  }
+
+  .welcome h1 {
+    max-width: 400px;
+    font-size: 40px;
+    line-height: 60px;
+    margin: auto;
+  }
+
+  .welcome h2 {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    margin-bottom: 47px;
+  }
+
+  .welcome h1 {
+    top: unset;
+    text-align: center;
+  }
+
+  .welcome .content {
+    top: unset;
+    text-align: center;
+  }
+
+  .welcome .container {
+    position: unset;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .welcome .container > * {
+    position: relative;
+  }
+
+  .welcome .slider {
+    max-width: 100%;
+  }
+
+  .welcome .slider .items::before {
+    display: none;
+  }
+
+  .welcome .slider nav {
+    bottom: 0;
+    width: 100%;
+    position: initial;
+    bottom: unset;
+    height: 100px;
+  }
+
+  .welcome a.button {
+    display: none;
+  }
+
+  .welcome .slider nav > *:first-child {
+    padding-left: 165px;
+  }
+
+  .welcome .slider nav > *:last-child {
+    padding-right: 165px;
+  }
+
+  .visiting {
+    padding-bottom: 62px;
+  }
+
+  .visiting .items {
+    row-gap: 22px;
+  }
+
+  .visiting .items .item {
+    max-width: 278px;
+  }
+
+  .visiting .item h3 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  .visiting h4 {
+    font-size: 18px;
+  }
+
+  .visiting p {
+    line-height: 23px;
+  }
+
+  .explore {
+    padding-bottom: 27px;
+  }
+
+  .explore .container {
+    justify-content: left;
+  }
+
+  .explore .container .description p {
+    display: none;
+  }
+
+  .explore .container .description {
+    margin-bottom: -14px;
+    flex-basis: 100%;
+  }
+
+  .explore .picture img {
+    width: 100%;
+  }
+
+  .explore .picture .slider {
+    right: 268px;
+    padding-top: 14px;
+  }
+
+  .explore .picture .slider::after {
+    height: calc(50% - 45.5px);
+  }
+
+  .explore .picture .slider::before {
+    height: calc(50% - 21.5px);
+  }
+
+  .player .play-large {
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+  }
+
+  .player .controls {
+    position: relative;
+    padding: 0 30px;
+    gap: 0 36px;
+    height: 56px;
+  }
+
+  .player .controls .progress.position {
+    position: absolute;
+    bottom: 53px;
+    width: 100%;
+    left: 0;
+    height: 5px;
+  }
+
+  .player .controls button.volume {
+    width: 30px;
+  }
+
+  .player .controls .volume-level {
+    flex-grow: 1;
+    margin-top: 7px;
+  }
+
+  .player .controls .volume-level .progress {
+    width: 100%;
+    margin-left: 38px;
+    height: 6px;
+  }
+
+  .video {
+    padding-bottom: 80px;
+  }
+
+  .video .slider .items {
+    flex-wrap: wrap;
+  }
+
+  .video .player {
+    margin: 10px 0 21px;
+  }
+
+  .video .slider .items {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .video .slider .items > div {
+    width: 354px;
+    height: 200px;
+  }
+
+  .video .slider nav ul li a {
+    width: 10px;
+    height: 10px;
+  }
+
+  .gallery > div > div > div > div > img {
+    max-width: 352px;
+  }
+
+  .gallery .picture-container {
+    height: 1026px;
+  }
+
+  .gallery .picture-inner-container {
+    height: 2000px;
+    gap: 24px 23px;
+  }
+
+  .gallery .picture-inner-container img:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .tickets {
+    padding-bottom: 40px;
+  }
+
+  .tickets .image {
+    width: 444px;
+    height: 340px;
+    overflow: hidden;
+  }
+
+  .tickets .image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+
+  .buy-tickets-form {
+    width: 225px;
+    text-align: left;
+  }
+
+  .buy-tickets-form .amount h4 {
+    margin-bottom: 32px;
+  }
+
+  .buy-tickets-form .spinner {
+    margin-bottom: 18px;
+  }
+
+  .buy-tickets-form .total {
+    margin: 22px 0 40px;
+  }
+
+  .parallax {
+    height: 300px;
+  }
+
+  .contacts .content {
+    flex-wrap: wrap;
+  }
+
+  .contacts b {
+    font-size: 20px;
+    line-height: 23px;
+    width: 212px;
+    display: block;
+  }
+
+  .contacts ul {
+    margin: 34px 0 33px;
+  }
+
+  .contacts ul li {
+    line-height: 35px;
+    font-size: 18px;
+  }
+
+  .contacts .content .map {
+    width: 770px;
+    height: 477px;
+  }
+
+  .contacts {
+    padding-bottom: 67px;
+  }
+
+  footer .logo {
+    width: 122px;
+  }
+
+  footer .links > .container {
+    height: auto;
+  }
+
+  footer .links > .container {
+    padding: 40px 0 40px;
+  }
+
+  footer .links > .container {
+    flex-wrap: wrap;
+    justify-content: left;
+    column-gap: 102px;
+  }
+
+  footer nav {
+    margin-top: 3px;
+  }
+
+  footer nav ul {
+    width: 392px;
+    column-gap: 134px;
+    justify-content: initial;
+  }
+
+  footer nav ul li a {
+    font-size: 18px;
+    line-height: 47px;
+  }
+
+  footer .social {
+    margin: 27px 91px 0 0;
+  }
+
+  footer .copyrights {
+    height: 102px;
+  }
+
+  .modal .overview-section button {
+    bottom: 23px;
+    right: 13px;
+  }
+
+  .modal .payment-form {
+    margin-top: 14px;
+  }
+
+  .modal .main-section input[name="date"]::after {
+    width: 75%;
+  }
+
+  .modal .main-section input[name="time"]::after {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 767px) {
+  .container {
+    margin: 0 20px;
+  }
+
+  .burger-menu {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .welcome .slider nav > * {
+    padding: 0 !important;
+  }
+
+  .video .slider .items > div {
+    width: 33%;
+  }
+
+  .video .content img,
+  .contacts .map img,
+  .explore .picture img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer .links .container,
+  .explore .container,
+  .tickets .content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tickets .content {
+    row-gap: 30px;
+  }
+
+  .gallery .picture-inner-container img {
+    max-width: 50%;
+  }
+
+  footer .social {
+    justify-content: center;
+  }
+  footer,
+  footer .links > .container {
+    height: auto;
+  }
+
+  .youtube-video .channel span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+    white-space: nowrap;
+  }
+
+  .youtube-video .channel::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .burger-menu nav ul {
+    margin-top: 15px;
+  }
+
+  .burger-menu .images {
+    display: none;
+  }
+
+  .burger-menu .images-small {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+  }
+
+  .burger-menu .social {
+    padding-top: 24px;
+    gap: 10px 6px;
+  }
+
+  .modal {
+    max-width: 420px;
+    max-height: 1754px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .modal .content {
+    height: 1755px;
+  }
+
+  .active .modal {
+    position: absolute;
+  }
+
+  .modal form {
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 0;
+    align-content: space-between;
+  }
+
+  .modal form .form-fields-section {
+    width: 360px;
+    height: 395px;
+    margin-top: 80px;
+  }
+
+  .modal .payment-form {
+    margin-top: 15px;
+  }
+
+  .modal .payment-form .back-side {
+    bottom: -25px;
+    right: 0;
+  }
+
+  .modal h2 {
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .modal h3 {
+    margin-bottom: 53px;
+  }
+
+  .modal .main-section input[name="date"] {
+    width: 100%;
+  }
+
+  .modal .datetime {
+    gap: 18px;
+    flex-direction: column;
+  }
+
+  .modal .payment-form .front-side,
+  .modal .payment-form .back-side,
+  .modal .payment-form .back-side .stripe {
+    width: 330px;
+  }
+
+  .modal form .overview-section {
+    width: 360px;
+    height: 885px;
+    margin-bottom: 50px;
+  }
+
+  .modal .main-section input[name="date"]::after {
+    width: 84%;
+  }
+
+  .modal .main-section input[name="time"]::after {
+    width: 90%;
+  }
+
+  .modal form .overview-section > div {
+    padding: 24px 14px;
+  }
+
+  .modal .payment-form .back-side {
+    position: relative;
+  }
+
+  .burger {
+    top: 36px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    line-height: 16px;
+  }
+
+  header .container {
+    height: 97px;
+  }
+
+  .logo {
+    height: 48px;
+    background-size: 30px 23px;
+    font-size: 16px;
+    padding-left: 54px;
+  }
+  .welcome h1 {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+  }
+
+  .welcome h2 {
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    margin: 21px 0 47px;
+  }
+
+  .welcome .slider nav {
+    height: 80px;
+  }
+
+  .welcome .slider nav .pins li {
+    width: 7px;
+    height: 7px;
+  }
+
+  .welcome .slider nav > *:first-child {
+    padding-left: 75px;
+  }
+  .welcome .slider nav > *:last-child {
+    padding-right: 75px;
+  }
+
+  .welcome .slider nav .counters {
+    font-size: 15px;
+  }
+
+  .welcome .slider nav .arrow {
+    width: 20px;
+  }
+
+  .welcome .slider nav .arrows {
+    width: 55px;
+  }
+
+  .welcome .slider nav .pins {
+    width: 75px;
+    margin: 0;
+  }
+
+  .welcome .slider nav .counters span:first-child {
+    padding-right: 3px;
+  }
+  .welcome .slider nav .counters span:last-child {
+    padding-left: 3px;
+  }
+
+  .visiting .item h3 {
+    line-height: 18px;
+    letter-spacing: 4.4px;
+  }
+  .visiting h4 {
+    font-size: 16px;
+  }
+
+  .visiting p {
+    line-height: 21px;
+  }
+
+  .visiting {
+    padding-bottom: 22px;
+  }
+
+  .explore .picture .slider {
+    right: 130px;
+    padding-top: 14px;
+  }
+
+  .explore .picture .slider span {
+    border-width: 2px;
+    width: 20px;
+    height: 20px;
+  }
+  .explore .picture .slider::before,
+  .explore .picture .slider::after {
+    width: 2px;
+  }
+
+  .explore .picture .slider::before {
+    height: calc(50% - 18.5px);
+  }
+
+  .explore .picture .slider::after {
+    height: calc(50% - 27.5px);
+  }
+
+  .explore .picture img {
+    padding-top: 14px;
+  }
+
+  .video .content > * {
+    flex-basis: 100%;
+  }
+
+  .video {
+    padding: 48px 0 60px;
+  }
+
+  .player .play-large {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+  }
+
+  .player .controls {
+    padding: 0 20px;
+    gap: 0 29px;
+    height: 54px;
+  }
+
+  .player .controls button.play {
+    width: 14px;
+    height: 18px;
+  }
+
+  .player .controls button.play svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .player .controls button.fullscreen {
+    width: 18px;
+    height: 18px;
+  }
+
+  .player .controls button.volume {
+    width: 26px;
+  }
+
+  .player .controls .progress.position {
+    height: 3px;
+  }
+
+  .player .controls .volume-level {
+    margin-top: 4px;
+  }
+
+  .player .controls .volume-level .progress {
+    height: 4px;
+    margin-left: 28px;
+  }
+
+  .player .controls .progress.position {
+    bottom: 50px;
+    height: 4px;
+  }
+
+  .player .controls .progress::-webkit-slider-thumb {
+    width: 10px;
+    height: 10px;
+  }
+
+  .video {
+    padding: 48px 0 40px;
+  }
+
+  .video .player {
+    margin: 10px 0 40px;
+  }
+
+  .video .slider .items {
+    height: 101px;
+    margin-bottom: 40px;
+  }
+
+  .video .slider .items > div {
+    width: 180px;
+    height: 101px;
+  }
+
+  .video .slider nav ul li a {
+    width: 8px;
+    height: 8px;
+  }
+
+  .video .slider nav .arrow,
+  .video .slider nav .arrow svg {
+    width: 7px;
+    height: 8px;
+  }
+
+  .gallery > div > div > div > div > img {
+    max-width: 178px;
+  }
+
+  .gallery .picture-container {
+    height: 583px;
+  }
+
+  .tickets .content {
+    flex-wrap: wrap;
+  }
+
+  .tickets .image {
+    height: 159px;
+  }
+
+  .tickets .image img {
+    margin-top: -66px;
+  }
+
+  .tickets .content > * {
+    flex-basis: 100%;
+  }
+
+  .buy-tickets-form .fields-wrapper {
+    justify-content: center;
+  }
+
+  .buy-tickets-form .amount h4 {
+    margin: 32px 0 4px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .buy-tickets-form .spinner {
+    margin-bottom: 11px;
+    font-size: 15px;
+  }
+
+  .tickets .amount,
+  .tickets .total,
+  .tickets .buy-now-wrapper {
+    text-align: center;
+  }
+
+  .tickets .total {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0;
+    margin-bottom: 31px;
+  }
+
+  .buy-tickets-form span {
+    margin-right: 6px;
+  }
+
+  .buy-tickets-form .buy-now {
+    font-size: 16px;
+    padding: 12px 50px;
+  }
+
+  .contacts b {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .contacts ul li {
+    line-height: 33px;
+    font-size: 16px;
+  }
+
+  .contacts .content .map {
+    width: 770px;
+    height: 248px;
+  }
+
+  .contacts {
+    padding-bottom: 41px;
+  }
+
+  footer .logo {
+    margin: -4px 0 0;
+    padding-left: 50px;
+    width: 195px;
+  }
+
+  footer nav ul {
+    width: 100%;
+    height: 95px;
+    column-gap: 88px;
+  }
+
+  footer nav ul li a {
+    font-size: 16px;
+  }
+
+  footer .social {
+    margin: 27px 0 0 0;
+    padding: 0;
+    justify-content: center;
+    gap: 10px 6px;
+  }
+
+  footer .copyrights {
+    font-size: 16px;
+    border-width: 2px;
+    letter-spacing: 3px;
+  }
+
+  footer .copyrights .container > span:nth-child(2) {
+    display: none;
+  }
+
+  .youtube-video .channel span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+    white-space: nowrap;
+  }
+
+  .youtube-video .channel::after {
+    display: none;
+  }
+
+  .modal .overview-section .summary img {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .burger-menu {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .welcome .slider nav > * {
+    padding: 0 !important;
+  }
+
+  .gallery > div > div > div > div > img {
+    max-width: 100%;
+  }
+
+  .video .slider .items > div {
+    width: 50%;
+  }
+
+  footer nav ul {
+    height: auto;
+  }
+}
